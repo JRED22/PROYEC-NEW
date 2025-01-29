@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin  label{
+  font-size: 1rem;
+  text-align: center;
+ 
+}
+
+ .form-signin .form-floating:focus-within { /*cuando gana el foco lo manda a un lado */
+  z-index: 2;
+  color: blue;
+}
+
+.form-signin .email {
+  margin-bottom: 7px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin .username {
+  margin-bottom: 7px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin .password  {
+  margin-bottom: 7px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.success {
+  color: green;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  padding: 10px 0px;
+  margin: 10px 0;
+}
+
+.danger {
+  color: red;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin: 10px 0;
+}
+.flash-messages{
+  list-style: none;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+
+
